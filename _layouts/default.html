@@ -22,7 +22,44 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </header>
+    <!-- NavigationBar -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body {margin:0;}
 
+    .icon-bar {
+        width: 100%;
+        background-color: #fbfbfb;
+        overflow: auto;
+    }
+
+    .icon-bar a {
+        float: left;
+        width: 16.66666666666667%;
+        text-align: center;
+        padding: 12px 0;
+        transition: all 0.3s ease;
+        color: black;
+        font-size: 36px;
+    }
+
+    .icon-bar a:hover {
+        background-color: blue;
+    }
+    </style>
+    <body>
+
+    <div class="icon-bar">
+      <a href="https://github.com/smdepotter"><img src="assets\icons\github-original.svg" style="width:70%"></a>
+      <a href="#"><img src="assets\icons\csharp-plain.svg" style="width:70%"></a>
+      <a href="#"><img src="assets\icons\illustrator-plain.svg" style="width:70%"></a>
+      <a href="#"><img src="assets\icons\photoshop-plain.svg" style="width:70%"></a>
+      <a href="#"><img src="assets\icons\java-plain.svg" style="width:70%"></a>
+      <a href="#"><img src="assets\icons\swift-plain.svg" style="width:70%"></a>
+    </div>
+
+    </body>
     <main id="content" class="main-content" role="main">
       {{ content }}
 

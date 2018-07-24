@@ -366,5 +366,27 @@ a {
 
 .project {
   background-color: white;
-  width: 150%;
+  width: 100%;
+}
+
+.icon-bar {
+    position: relative;
+    width: 100%;
+    background-color: #fbfbfb;
+    overflow: auto;
+    display: block;
+
+}
+
+.icon-bar a {
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    opacity: .25;
+    transition: .5s ease;
 }
